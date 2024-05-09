@@ -63,6 +63,24 @@ dev = ["pre-commit", "tox"]
 testing = ["pytest", "pytest-benchmark"]
 
 [[package]]
+name = "pytermgui"
+version = "7.7.1"
+description = "Python TUI framework with mouse support, modular widget system, customizable and rapid terminal markup language and more!"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "pytermgui-7.7.1-py3-none-any.whl", hash = "sha256:d09d2bd77164191bd60e0286414f66ca660ef6f6636f1f0f5f55dc3d3dbc6105"},
+    {file = "pytermgui-7.7.1.tar.gz", hash = "sha256:030458be5c3cbeaab17fb9aa3d19e6232be4ce4a3f54418fe13bb97fdef446db"},
+]
+
+[package.dependencies]
+typing-extensions = "*"
+wcwidth = "*"
+
+[package.extras]
+yaml = ["pyyaml"]
+
+[[package]]
 name = "pytest"
 version = "8.2.0"
 description = "pytest: simple powerful testing with Python"
@@ -95,7 +113,29 @@ files = [
     {file = "tomli-2.0.1.tar.gz", hash = "sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f"},
 ]
 
+[[package]]
+name = "typing-extensions"
+version = "4.11.0"
+description = "Backported and Experimental Type Hints for Python 3.8+"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "typing_extensions-4.11.0-py3-none-any.whl", hash = "sha256:c1f94d72897edaf4ce775bb7558d5b79d8126906a14ea5ed1635921406c0387a"},
+    {file = "typing_extensions-4.11.0.tar.gz", hash = "sha256:83f085bd5ca59c80295fc2a82ab5dac679cbe02b9f33f7d83af68e241bea51b0"},
+]
+
+[[package]]
+name = "wcwidth"
+version = "0.2.13"
+description = "Measures the displayed width of unicode strings in a terminal"
+optional = false
+python-versions = "*"
+files = [
+    {file = "wcwidth-0.2.13-py2.py3-none-any.whl", hash = "sha256:3da69048e4540d84af32131829ff948f1e022c1c6bdb8d6102117aac784f6859"},
+    {file = "wcwidth-0.2.13.tar.gz", hash = "sha256:72ea0c06399eb286d978fdedb6923a9eb47e1c486ce63e9b4e64fc18303972b5"},
+]
+
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.10"
-content-hash = "b5c82aafae478c6145f28e02ac9675303295fa8ab4954b4a2f79874f095ab643"
+content-hash = "d8859db4b341dc7c433ef02ff0e91e48aea5f4d96628d54d8ffda6967a43ee3e"

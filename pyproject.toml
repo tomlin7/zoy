@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "zoy"
-version = "0.1.1"
+version = "0.2.0"
 description = "Count lines of python code in projects"
 authors = ["Billy <billydevbusiness@gmail.com>"]
 license = "MIT"
@@ -9,8 +9,13 @@ readme = "README.md"
 [tool.poetry.scripts]
 zoy = "zoy.zoy:main"
 
+[tool.poetry.urls]
+"Bug Reports" = "https://github.com/tomlin7/zoy/issues"
+"Source" = "https://github.com/tomlin7/zoy/"
+
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
+pytermgui = "^7.7.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2.0"

@@ -2,22 +2,7 @@
 
 Utility to count lines of python code, scripts, directories, etc. in projects.
 
-```bash
-$ python -m zoy path/to/project
-Project Structure: 
-📂 test
-  📄 test_zoy.py
-📂 zoy
-  📄 zoy.py
-  📄 __init__.py
-  📄 __main__.py
-
-=========================================
-
-Total Python files: 4
-Total lines in Python files: 65
-Total directories: 2
-```
+<img src=https://github.com/tomlin7/zoy/assets/70792552/1ed5fff1-0c0e-453c-86a0-1da2ea10456f width=500>
 
 ### Installation
 
