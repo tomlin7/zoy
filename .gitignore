@@ -1,0 +1,14 @@
+# Ignore compiled Python files
+*.pyc
+
+# Ignore the virtual environment directory
+venv/
+
+# Ignore the build directory
+build/
+
+# Ignore the distribution directory
+dist/
+
+# Ignore any local development settings
+settings.ini
